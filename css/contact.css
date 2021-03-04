@@ -11,7 +11,7 @@ body {
 	display: grid;
 	align-items: center;
 	font-family: 'Poppins', sans-serif;
-    background-image: url(../images/1.jpg);
+    background-image: url(../images/pexels-mike-126271.jpg);
     
 }
 
@@ -29,16 +29,16 @@ body {
 
 .contact-in:nth-child(1) {
 	flex: 30%;
-	background: url(1.jpg);
+	background: url(../images/1.jpg);
 	color: #fff;
 }
 .contact-in:nth-child(2) {
-	flex: 45%;
+	flex: 35%;
 	background: #283747 ;
 }
 
 .contact-in:nth-child(3) {
-	flex: 25%;
+	flex: 35%;
 	padding: 0;
 }
 
@@ -48,6 +48,9 @@ body {
 	text-transform: uppercase;
 	font-weight: 500;
 	margin-bottom: 20px;
+}
+.text-center{
+	text-align: center;
 }
 
 .contact-in h2 {
@@ -163,11 +166,11 @@ body {
 
 @media only screen and (max-width:768px) {
 	.contact-in:nth-child(1) {
-		flex: 50%;
+		flex: 100%;
 	}
 
 	.contact-in:nth-child(2) {
-		flex: 50%;
+		flex: 100%;
 	}
 
 	.contact-in:nth-child(3) {
@@ -176,17 +179,4 @@ body {
 
 }
 
-@media only screen and (max-width:360px) {
-	.contact-in:nth-child(1) {
-		flex: 50%;
-	}
 
-	.contact-in:nth-child(2) {
-		flex: 50%;
-	}
-
-	.contact-in:nth-child(3) {
-		flex: 100%;
-	}
-
-}
